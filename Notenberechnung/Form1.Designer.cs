@@ -127,6 +127,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.Fach1_ZGNS = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.Fach2_ZGNS = new System.Windows.Forms.Label();
+            this.Fach3_ZGNS = new System.Windows.Forms.Label();
+            this.Fach4_ZGNS = new System.Windows.Forms.Label();
+            this.Fach5_ZGNS = new System.Windows.Forms.Label();
+            this.Fach6_ZGNS = new System.Windows.Forms.Label();
+            this.Fach7_ZGNS = new System.Windows.Forms.Label();
+            this.Fach8_ZGNS = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // berrechnen
@@ -924,11 +931,74 @@
             this.label3.TabIndex = 160;
             this.label3.Text = "Zeugnisnote";
             // 
+            // Fach2_ZGNS
+            // 
+            this.Fach2_ZGNS.AutoSize = true;
+            this.Fach2_ZGNS.Location = new System.Drawing.Point(1383, 238);
+            this.Fach2_ZGNS.Name = "Fach2_ZGNS";
+            this.Fach2_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach2_ZGNS.TabIndex = 161;
+            // 
+            // Fach3_ZGNS
+            // 
+            this.Fach3_ZGNS.AutoSize = true;
+            this.Fach3_ZGNS.Location = new System.Drawing.Point(1383, 320);
+            this.Fach3_ZGNS.Name = "Fach3_ZGNS";
+            this.Fach3_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach3_ZGNS.TabIndex = 162;
+            // 
+            // Fach4_ZGNS
+            // 
+            this.Fach4_ZGNS.AutoSize = true;
+            this.Fach4_ZGNS.Location = new System.Drawing.Point(1383, 411);
+            this.Fach4_ZGNS.Name = "Fach4_ZGNS";
+            this.Fach4_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach4_ZGNS.TabIndex = 163;
+            // 
+            // Fach5_ZGNS
+            // 
+            this.Fach5_ZGNS.AutoSize = true;
+            this.Fach5_ZGNS.Location = new System.Drawing.Point(1383, 504);
+            this.Fach5_ZGNS.Name = "Fach5_ZGNS";
+            this.Fach5_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach5_ZGNS.TabIndex = 164;
+            // 
+            // Fach6_ZGNS
+            // 
+            this.Fach6_ZGNS.AutoSize = true;
+            this.Fach6_ZGNS.Location = new System.Drawing.Point(1383, 589);
+            this.Fach6_ZGNS.Name = "Fach6_ZGNS";
+            this.Fach6_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach6_ZGNS.TabIndex = 165;
+            // 
+            // Fach7_ZGNS
+            // 
+            this.Fach7_ZGNS.AutoSize = true;
+            this.Fach7_ZGNS.Location = new System.Drawing.Point(1383, 682);
+            this.Fach7_ZGNS.Name = "Fach7_ZGNS";
+            this.Fach7_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach7_ZGNS.TabIndex = 166;
+            // 
+            // Fach8_ZGNS
+            // 
+            this.Fach8_ZGNS.AutoSize = true;
+            this.Fach8_ZGNS.Location = new System.Drawing.Point(1383, 774);
+            this.Fach8_ZGNS.Name = "Fach8_ZGNS";
+            this.Fach8_ZGNS.Size = new System.Drawing.Size(0, 17);
+            this.Fach8_ZGNS.TabIndex = 167;
+            // 
             // Hauptfenster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1810, 920);
+            this.Controls.Add(this.Fach8_ZGNS);
+            this.Controls.Add(this.Fach7_ZGNS);
+            this.Controls.Add(this.Fach6_ZGNS);
+            this.Controls.Add(this.Fach5_ZGNS);
+            this.Controls.Add(this.Fach4_ZGNS);
+            this.Controls.Add(this.Fach3_ZGNS);
+            this.Controls.Add(this.Fach2_ZGNS);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Fach1_ZGNS);
             this.Controls.Add(this.label2);
@@ -1135,6 +1205,13 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Fach1_ZGNS;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Fach2_ZGNS;
+        private System.Windows.Forms.Label Fach3_ZGNS;
+        private System.Windows.Forms.Label Fach4_ZGNS;
+        private System.Windows.Forms.Label Fach5_ZGNS;
+        private System.Windows.Forms.Label Fach6_ZGNS;
+        private System.Windows.Forms.Label Fach7_ZGNS;
+        private System.Windows.Forms.Label Fach8_ZGNS;
     }
 }
 

@@ -274,9 +274,44 @@ namespace Notenberechnung
             }
 
             double Fach2_Note_Berechnung = (((Convert.ToDouble(SA2_1.Text) * 2) + (Convert.ToDouble(SA2_2.Text) * 2) + (Convert.ToDouble(SA2_3.Text) * 2) + (Convert.ToDouble(SA2_4.Text) * 2) + Convert.ToDouble(KA2_1.Text) + Convert.ToDouble(KA2_2.Text) + Convert.ToDouble(KA2_3.Text) + Convert.ToDouble(KA2_4.Text)) / i);
-            //Ausgabe mit Convertierung INT zu String
+            //Ausgabe mit Convertierung Double zu String
             Fach2_Note.Text = Convert.ToString(Fach2_Note_Berechnung);
 
+            if (Fach2_Note_Berechnung > 5.51)
+            {
+
+                Fach2_ZGNS.Text = "6";
+
+            }
+            else if (Fach2_Note_Berechnung > 4.51)
+            {
+
+                Fach2_ZGNS.Text = "5";
+
+            }
+            else if (Fach2_Note_Berechnung > 3.51)
+            {
+
+                Fach2_ZGNS.Text = "4";
+
+            }
+            else if (Fach2_Note_Berechnung > 2.51)
+            {
+
+                Fach2_ZGNS.Text = "3";
+
+            }
+            else if (Fach2_Note_Berechnung > 1.51)
+            {
+
+                Fach2_ZGNS.Text = "2";
+
+            }
+            else if (Fach2_Note_Berechnung > 0.51)
+            {
+
+                Fach2_ZGNS.Text = "1";
+            }
 
             //FACH3
 
@@ -376,6 +411,42 @@ namespace Notenberechnung
             //Ausgabe mit Convertierung INT zu String
             Fach3_Note.Text = Convert.ToString(Fach3_Note_Berechnung);
 
+            if (Fach3_Note_Berechnung > 5.51)
+            {
+
+                Fach3_ZGNS.Text = "6";
+
+            }
+            else if (Fach3_Note_Berechnung > 4.51)
+            {
+
+                Fach3_ZGNS.Text = "5";
+
+            }
+            else if (Fach3_Note_Berechnung > 3.51)
+            {
+
+                Fach3_ZGNS.Text = "4";
+
+            }
+            else if (Fach3_Note_Berechnung > 2.51)
+            {
+
+                Fach3_ZGNS.Text = "3";
+
+            }
+            else if (Fach3_Note_Berechnung > 1.51)
+            {
+
+                Fach3_ZGNS.Text = "2";
+
+            }
+            else if (Fach3_Note_Berechnung > 0.51)
+            {
+
+                Fach3_ZGNS.Text = "1";
+            }
+
             //FACH4
 
             //wenn ein Notenfeld leer ist wird es mit 0 gefüllt
@@ -474,6 +545,41 @@ namespace Notenberechnung
             //Ausgabe mit Convertierung INT zu String
             Fach4_Note.Text = Convert.ToString(Fach4_Note_Berechnung);
 
+            if (Fach4_Note_Berechnung > 5.51)
+            {
+
+                Fach4_ZGNS.Text = "6";
+
+            }
+            else if (Fach4_Note_Berechnung > 4.51)
+            {
+
+                Fach4_ZGNS.Text = "5";
+
+            }
+            else if (Fach4_Note_Berechnung > 3.51)
+            {
+
+                Fach4_ZGNS.Text = "4";
+
+            }
+            else if (Fach4_Note_Berechnung > 2.51)
+            {
+
+                Fach4_ZGNS.Text = "3";
+
+            }
+            else if (Fach4_Note_Berechnung > 1.51)
+            {
+
+                Fach4_ZGNS.Text = "2";
+
+            }
+            else if (Fach4_Note_Berechnung > 0.51)
+            {
+
+                Fach4_ZGNS.Text = "1";
+            }
 
             //FACH5
 
@@ -573,6 +679,42 @@ namespace Notenberechnung
             //Ausgabe mit Convertierung INT zu String
             Fach5_Note.Text = Convert.ToString(Fach5_Note_Berechnung);
 
+            if (Fach5_Note_Berechnung > 5.51)
+            {
+
+                Fach5_ZGNS.Text = "6";
+
+            }
+            else if (Fach5_Note_Berechnung > 4.51)
+            {
+
+                Fach5_ZGNS.Text = "5";
+
+            }
+            else if (Fach5_Note_Berechnung > 3.51)
+            {
+
+                Fach5_ZGNS.Text = "4";
+
+            }
+            else if (Fach5_Note_Berechnung > 2.51)
+            {
+
+                Fach5_ZGNS.Text = "3";
+
+            }
+            else if (Fach5_Note_Berechnung > 1.51)
+            {
+
+                Fach5_ZGNS.Text = "2";
+
+            }
+            else if (Fach5_Note_Berechnung > 0.51)
+            {
+
+                Fach5_ZGNS.Text = "1";
+            }
+
             //FACH6
 
             //wenn ein Notenfeld leer ist wird es mit 0 gefüllt
@@ -668,9 +810,44 @@ namespace Notenberechnung
             }
 
             double Fach6_Note_Berechnung = (((Convert.ToDouble(SA6_1.Text) * 2) + (Convert.ToDouble(SA6_2.Text) * 2) + (Convert.ToDouble(SA6_3.Text) * 2) + (Convert.ToDouble(SA6_4.Text) * 2) + Convert.ToDouble(KA6_1.Text) + Convert.ToDouble(KA6_2.Text) + Convert.ToDouble(KA6_3.Text) + Convert.ToDouble(KA6_4.Text)) / i);
-            //Ausgabe mit Convertierung INT zu String
+            //Ausgabe mit Convertierung Double zu String
             Fach6_Note.Text = Convert.ToString(Fach6_Note_Berechnung);
 
+            if (Fach6_Note_Berechnung > 5.51)
+            {
+
+                Fach6_ZGNS.Text = "6";
+
+            }
+            else if (Fach6_Note_Berechnung > 4.51)
+            {
+
+                Fach6_ZGNS.Text = "5";
+
+            }
+            else if (Fach6_Note_Berechnung > 3.51)
+            {
+
+                Fach6_ZGNS.Text = "4";
+
+            }
+            else if (Fach6_Note_Berechnung > 2.51)
+            {
+
+                Fach6_ZGNS.Text = "3";
+
+            }
+            else if (Fach6_Note_Berechnung > 1.51)
+            {
+
+                Fach6_ZGNS.Text = "2";
+
+            }
+            else if (Fach6_Note_Berechnung > 0.51)
+            {
+
+                Fach6_ZGNS.Text = "1";
+            }
 
             //FACH7
 
@@ -767,8 +944,44 @@ namespace Notenberechnung
             }
 
             double Fach7_Note_Berechnung = (((Convert.ToDouble(SA7_1.Text) * 2) + (Convert.ToDouble(SA7_2.Text) * 2) + (Convert.ToDouble(SA7_3.Text) * 2) + (Convert.ToDouble(SA7_4.Text) * 2) + Convert.ToDouble(KA7_1.Text) + Convert.ToDouble(KA7_2.Text) + Convert.ToDouble(KA7_3.Text) + Convert.ToDouble(KA7_4.Text)) / i);
-            //Ausgabe mit Convertierung INT zu String
+            //Ausgabe mit Convertierung Double zu String
             Fach7_Note.Text = Convert.ToString(Fach7_Note_Berechnung);
+
+            if (Fach7_Note_Berechnung > 5.51)
+            {
+
+                Fach7_ZGNS.Text = "6";
+
+            }
+            else if (Fach7_Note_Berechnung > 4.51)
+            {
+
+                Fach7_ZGNS.Text = "5";
+
+            }
+            else if (Fach7_Note_Berechnung > 3.51)
+            {
+
+                Fach7_ZGNS.Text = "4";
+
+            }
+            else if (Fach7_Note_Berechnung > 2.51)
+            {
+
+                Fach7_ZGNS.Text = "3";
+
+            }
+            else if (Fach7_Note_Berechnung > 1.51)
+            {
+
+                Fach7_ZGNS.Text = "2";
+
+            }
+            else if (Fach7_Note_Berechnung > 0.51)
+            {
+
+                Fach7_ZGNS.Text = "1";
+            }
 
             //FACH8
 
@@ -868,6 +1081,41 @@ namespace Notenberechnung
             //Ausgabe mit Convertierung INT zu String
             Fach8_Note.Text = Convert.ToString(Fach8_Note_Berechnung);
 
+            if (Fach8_Note_Berechnung > 5.51)
+            {
+
+                Fach8_ZGNS.Text = "6";
+
+            }
+            else if (Fach8_Note_Berechnung > 4.51)
+            {
+
+                Fach8_ZGNS.Text = "5";
+
+            }
+            else if (Fach8_Note_Berechnung > 3.51)
+            {
+
+                Fach8_ZGNS.Text = "4";
+
+            }
+            else if (Fach8_Note_Berechnung > 2.51)
+            {
+
+                Fach8_ZGNS.Text = "3";
+
+            }
+            else if (Fach8_Note_Berechnung > 1.51)
+            {
+
+                Fach8_ZGNS.Text = "2";
+
+            }
+            else if (Fach8_Note_Berechnung > 0.51)
+            {
+
+                Fach8_ZGNS.Text = "1";
+            }
 
         }
 
