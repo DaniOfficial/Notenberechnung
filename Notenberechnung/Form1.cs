@@ -48,29 +48,26 @@ namespace Notenberechnung
             
             //Überprüfung auf Notenanzahl
             int i = 0;
-            if (Convert.ToInt32(SA1_1.Text) > 0)
+            if (Convert.ToDouble(SA1_1.Text) > 0)
             {
                 i++;
             }
-            if(Convert.ToInt32(SA1_2.Text) > 0)
-            {
-                i++;
-
-            }
-            if (Convert.ToInt32(SA1_3.Text) > 0)
+            if(Convert.ToDouble(SA1_2.Text) > 0)
             {
                 i++;
 
             }
-            if (Convert.ToInt32(SA1_4.Text) > 0)
+            if (Convert.ToDouble(SA1_3.Text) > 0)
             {
                 i++;
 
-                
-                
+            }
+            if (Convert.ToDouble(SA1_4.Text) > 0)
+            {
+                i++;
 
             }
-            int Fach1_Note_Berechnung = (Convert.ToInt32(SA1_1.Text) + Convert.ToInt32(SA1_2.Text) + Convert.ToInt32(SA1_3.Text) + Convert.ToInt32(SA1_4.Text)) / i;
+            double Fach1_Note_Berechnung = (Convert.ToDouble(SA1_1.Text) + Convert.ToDouble(SA1_2.Text) + Convert.ToDouble(SA1_3.Text) + Convert.ToDouble(SA1_4.Text)) / i;
             //Ausgabe mit Convertierung INT zu String
             Fach1_Note.Text = Convert.ToString(Fach1_Note_Berechnung);
 
@@ -108,6 +105,21 @@ namespace Notenberechnung
         private void Note1_TextChanged(object sender, EventArgs e)
         {
          
+        }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
