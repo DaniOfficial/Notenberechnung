@@ -35,18 +35,18 @@
             this.Fach_Text = new System.Windows.Forms.Label();
             this.Schulaufgabe_Text = new System.Windows.Forms.Label();
             this.Kurzarbeit_Text = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.SA1_1 = new System.Windows.Forms.RichTextBox();
             this.Trenner = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.Fach2 = new System.Windows.Forms.TextBox();
+            this.Fach3 = new System.Windows.Forms.TextBox();
+            this.Fach4 = new System.Windows.Forms.TextBox();
+            this.Fach5 = new System.Windows.Forms.TextBox();
+            this.Fach6 = new System.Windows.Forms.TextBox();
+            this.Fach7 = new System.Windows.Forms.TextBox();
+            this.Fach8 = new System.Windows.Forms.TextBox();
+            this.SA1_2 = new System.Windows.Forms.RichTextBox();
+            this.SA1_3 = new System.Windows.Forms.RichTextBox();
+            this.SA1_4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
@@ -103,11 +103,12 @@
             this.richTextBox58 = new System.Windows.Forms.RichTextBox();
             this.richTextBox59 = new System.Windows.Forms.RichTextBox();
             this.richTextBox60 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox61 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox62 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox63 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox64 = new System.Windows.Forms.RichTextBox();
+            this.KA1_4 = new System.Windows.Forms.RichTextBox();
+            this.KA1_3 = new System.Windows.Forms.RichTextBox();
+            this.KA1_2 = new System.Windows.Forms.RichTextBox();
+            this.KA1_1 = new System.Windows.Forms.RichTextBox();
             this.Fach1_Text = new System.Windows.Forms.Label();
+            this.Fach1_Note = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // berrechnen
@@ -167,13 +168,14 @@
             this.Kurzarbeit_Text.Text = "Kurzarbeitennote";
             this.Kurzarbeit_Text.Click += new System.EventHandler(this.Kurzarbeit_Text_Click);
             // 
-            // richTextBox1
+            // SA1_1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(205, 145);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "";
+            this.SA1_1.Location = new System.Drawing.Point(205, 145);
+            this.SA1_1.Name = "SA1_1";
+            this.SA1_1.Size = new System.Drawing.Size(25, 24);
+            this.SA1_1.TabIndex = 6;
+            this.SA1_1.Text = "";
+            this.SA1_1.TextChanged += new System.EventHandler(this.Note1_TextChanged);
             // 
             // Trenner
             // 
@@ -185,78 +187,78 @@
             this.Trenner.Text = resources.GetString("Trenner.Text");
             this.Trenner.Click += new System.EventHandler(this.Trenner_Click);
             // 
-            // textBox1
+            // Fach2
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 247);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 22);
-            this.textBox1.TabIndex = 8;
+            this.Fach2.Location = new System.Drawing.Point(7, 247);
+            this.Fach2.Name = "Fach2";
+            this.Fach2.Size = new System.Drawing.Size(159, 22);
+            this.Fach2.TabIndex = 8;
             // 
-            // textBox2
+            // Fach3
             // 
-            this.textBox2.Location = new System.Drawing.Point(7, 336);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 22);
-            this.textBox2.TabIndex = 9;
+            this.Fach3.Location = new System.Drawing.Point(7, 336);
+            this.Fach3.Name = "Fach3";
+            this.Fach3.Size = new System.Drawing.Size(159, 22);
+            this.Fach3.TabIndex = 9;
             // 
-            // textBox3
+            // Fach4
             // 
-            this.textBox3.Location = new System.Drawing.Point(7, 428);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 22);
-            this.textBox3.TabIndex = 10;
+            this.Fach4.Location = new System.Drawing.Point(7, 428);
+            this.Fach4.Name = "Fach4";
+            this.Fach4.Size = new System.Drawing.Size(159, 22);
+            this.Fach4.TabIndex = 10;
             // 
-            // textBox4
+            // Fach5
             // 
-            this.textBox4.Location = new System.Drawing.Point(7, 520);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(159, 22);
-            this.textBox4.TabIndex = 11;
+            this.Fach5.Location = new System.Drawing.Point(7, 520);
+            this.Fach5.Name = "Fach5";
+            this.Fach5.Size = new System.Drawing.Size(159, 22);
+            this.Fach5.TabIndex = 11;
             // 
-            // textBox5
+            // Fach6
             // 
-            this.textBox5.Location = new System.Drawing.Point(7, 601);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(159, 22);
-            this.textBox5.TabIndex = 12;
+            this.Fach6.Location = new System.Drawing.Point(7, 601);
+            this.Fach6.Name = "Fach6";
+            this.Fach6.Size = new System.Drawing.Size(159, 22);
+            this.Fach6.TabIndex = 12;
             // 
-            // textBox6
+            // Fach7
             // 
-            this.textBox6.Location = new System.Drawing.Point(7, 687);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(159, 22);
-            this.textBox6.TabIndex = 13;
+            this.Fach7.Location = new System.Drawing.Point(7, 687);
+            this.Fach7.Name = "Fach7";
+            this.Fach7.Size = new System.Drawing.Size(159, 22);
+            this.Fach7.TabIndex = 13;
             // 
-            // textBox7
+            // Fach8
             // 
-            this.textBox7.Location = new System.Drawing.Point(7, 767);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(159, 22);
-            this.textBox7.TabIndex = 14;
+            this.Fach8.Location = new System.Drawing.Point(7, 767);
+            this.Fach8.Name = "Fach8";
+            this.Fach8.Size = new System.Drawing.Size(159, 22);
+            this.Fach8.TabIndex = 14;
             // 
-            // richTextBox2
+            // SA1_2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(236, 145);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox2.TabIndex = 15;
-            this.richTextBox2.Text = "";
+            this.SA1_2.Location = new System.Drawing.Point(236, 145);
+            this.SA1_2.Name = "SA1_2";
+            this.SA1_2.Size = new System.Drawing.Size(25, 24);
+            this.SA1_2.TabIndex = 15;
+            this.SA1_2.Text = "";
             // 
-            // richTextBox3
+            // SA1_3
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(267, 145);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox3.TabIndex = 16;
-            this.richTextBox3.Text = "";
+            this.SA1_3.Location = new System.Drawing.Point(267, 145);
+            this.SA1_3.Name = "SA1_3";
+            this.SA1_3.Size = new System.Drawing.Size(25, 24);
+            this.SA1_3.TabIndex = 16;
+            this.SA1_3.Text = "";
             // 
-            // richTextBox4
+            // SA1_4
             // 
-            this.richTextBox4.Location = new System.Drawing.Point(298, 145);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox4.TabIndex = 17;
-            this.richTextBox4.Text = "";
+            this.SA1_4.Location = new System.Drawing.Point(298, 145);
+            this.SA1_4.Name = "SA1_4";
+            this.SA1_4.Size = new System.Drawing.Size(25, 24);
+            this.SA1_4.TabIndex = 17;
+            this.SA1_4.Text = "";
             // 
             // richTextBox5
             // 
@@ -706,52 +708,60 @@
             this.richTextBox60.TabIndex = 50;
             this.richTextBox60.Text = "";
             // 
-            // richTextBox61
+            // KA1_4
             // 
-            this.richTextBox61.Location = new System.Drawing.Point(529, 145);
-            this.richTextBox61.Name = "richTextBox61";
-            this.richTextBox61.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox61.TabIndex = 49;
-            this.richTextBox61.Text = "";
+            this.KA1_4.Location = new System.Drawing.Point(529, 145);
+            this.KA1_4.Name = "KA1_4";
+            this.KA1_4.Size = new System.Drawing.Size(25, 24);
+            this.KA1_4.TabIndex = 49;
+            this.KA1_4.Text = "";
             // 
-            // richTextBox62
+            // KA1_3
             // 
-            this.richTextBox62.Location = new System.Drawing.Point(498, 145);
-            this.richTextBox62.Name = "richTextBox62";
-            this.richTextBox62.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox62.TabIndex = 48;
-            this.richTextBox62.Text = "";
+            this.KA1_3.Location = new System.Drawing.Point(498, 145);
+            this.KA1_3.Name = "KA1_3";
+            this.KA1_3.Size = new System.Drawing.Size(25, 24);
+            this.KA1_3.TabIndex = 48;
+            this.KA1_3.Text = "";
             // 
-            // richTextBox63
+            // KA1_2
             // 
-            this.richTextBox63.Location = new System.Drawing.Point(467, 145);
-            this.richTextBox63.Name = "richTextBox63";
-            this.richTextBox63.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox63.TabIndex = 47;
-            this.richTextBox63.Text = "";
+            this.KA1_2.Location = new System.Drawing.Point(467, 145);
+            this.KA1_2.Name = "KA1_2";
+            this.KA1_2.Size = new System.Drawing.Size(25, 24);
+            this.KA1_2.TabIndex = 47;
+            this.KA1_2.Text = "";
             // 
-            // richTextBox64
+            // KA1_1
             // 
-            this.richTextBox64.Location = new System.Drawing.Point(436, 145);
-            this.richTextBox64.Name = "richTextBox64";
-            this.richTextBox64.Size = new System.Drawing.Size(25, 24);
-            this.richTextBox64.TabIndex = 46;
-            this.richTextBox64.Text = "";
+            this.KA1_1.Location = new System.Drawing.Point(436, 145);
+            this.KA1_1.Name = "KA1_1";
+            this.KA1_1.Size = new System.Drawing.Size(25, 24);
+            this.KA1_1.TabIndex = 46;
+            this.KA1_1.Text = "";
             // 
             // Fach1_Text
             // 
             this.Fach1_Text.AutoSize = true;
             this.Fach1_Text.Location = new System.Drawing.Point(848, 145);
             this.Fach1_Text.Name = "Fach1_Text";
-            this.Fach1_Text.Size = new System.Drawing.Size(43, 17);
+            this.Fach1_Text.Size = new System.Drawing.Size(0, 17);
             this.Fach1_Text.TabIndex = 78;
-            this.Fach1_Text.Text = "demo";
+            // 
+            // Fach1_Note
+            // 
+            this.Fach1_Note.AutoSize = true;
+            this.Fach1_Note.Location = new System.Drawing.Point(1058, 151);
+            this.Fach1_Note.Name = "Fach1_Note";
+            this.Fach1_Note.Size = new System.Drawing.Size(0, 17);
+            this.Fach1_Note.TabIndex = 79;
             // 
             // Hauptfenster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1637, 904);
+            this.Controls.Add(this.Fach1_Note);
             this.Controls.Add(this.Fach1_Text);
             this.Controls.Add(this.richTextBox33);
             this.Controls.Add(this.richTextBox34);
@@ -781,10 +791,10 @@
             this.Controls.Add(this.richTextBox58);
             this.Controls.Add(this.richTextBox59);
             this.Controls.Add(this.richTextBox60);
-            this.Controls.Add(this.richTextBox61);
-            this.Controls.Add(this.richTextBox62);
-            this.Controls.Add(this.richTextBox63);
-            this.Controls.Add(this.richTextBox64);
+            this.Controls.Add(this.KA1_4);
+            this.Controls.Add(this.KA1_3);
+            this.Controls.Add(this.KA1_2);
+            this.Controls.Add(this.KA1_1);
             this.Controls.Add(this.richTextBox29);
             this.Controls.Add(this.richTextBox30);
             this.Controls.Add(this.richTextBox31);
@@ -813,18 +823,18 @@
             this.Controls.Add(this.richTextBox6);
             this.Controls.Add(this.richTextBox7);
             this.Controls.Add(this.richTextBox8);
-            this.Controls.Add(this.richTextBox4);
-            this.Controls.Add(this.richTextBox3);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SA1_4);
+            this.Controls.Add(this.SA1_3);
+            this.Controls.Add(this.SA1_2);
+            this.Controls.Add(this.Fach8);
+            this.Controls.Add(this.Fach7);
+            this.Controls.Add(this.Fach6);
+            this.Controls.Add(this.Fach5);
+            this.Controls.Add(this.Fach4);
+            this.Controls.Add(this.Fach3);
+            this.Controls.Add(this.Fach2);
             this.Controls.Add(this.Trenner);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.SA1_1);
             this.Controls.Add(this.Kurzarbeit_Text);
             this.Controls.Add(this.Schulaufgabe_Text);
             this.Controls.Add(this.Fach_Text);
@@ -847,18 +857,18 @@
         private System.Windows.Forms.Label Fach_Text;
         private System.Windows.Forms.Label Schulaufgabe_Text;
         private System.Windows.Forms.Label Kurzarbeit_Text;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox SA1_1;
         private System.Windows.Forms.Label Trenner;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.TextBox Fach2;
+        private System.Windows.Forms.TextBox Fach3;
+        private System.Windows.Forms.TextBox Fach4;
+        private System.Windows.Forms.TextBox Fach5;
+        private System.Windows.Forms.TextBox Fach6;
+        private System.Windows.Forms.TextBox Fach7;
+        private System.Windows.Forms.TextBox Fach8;
+        private System.Windows.Forms.RichTextBox SA1_2;
+        private System.Windows.Forms.RichTextBox SA1_3;
+        private System.Windows.Forms.RichTextBox SA1_4;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.RichTextBox richTextBox7;
@@ -915,11 +925,12 @@
         private System.Windows.Forms.RichTextBox richTextBox58;
         private System.Windows.Forms.RichTextBox richTextBox59;
         private System.Windows.Forms.RichTextBox richTextBox60;
-        private System.Windows.Forms.RichTextBox richTextBox61;
-        private System.Windows.Forms.RichTextBox richTextBox62;
-        private System.Windows.Forms.RichTextBox richTextBox63;
-        private System.Windows.Forms.RichTextBox richTextBox64;
+        private System.Windows.Forms.RichTextBox KA1_4;
+        private System.Windows.Forms.RichTextBox KA1_3;
+        private System.Windows.Forms.RichTextBox KA1_2;
+        private System.Windows.Forms.RichTextBox KA1_1;
         private System.Windows.Forms.Label Fach1_Text;
+        private System.Windows.Forms.Label Fach1_Note;
     }
 }
 
