@@ -143,7 +143,7 @@
             this.berrechnen.Name = "berrechnen";
             this.berrechnen.Size = new System.Drawing.Size(146, 54);
             this.berrechnen.TabIndex = 0;
-            this.berrechnen.Text = "berrechnen";
+            this.berrechnen.Text = "berechnen";
             this.berrechnen.UseVisualStyleBackColor = true;
             this.berrechnen.Click += new System.EventHandler(this.button1_Click);
             // 
