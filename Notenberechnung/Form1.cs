@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -1163,5 +1164,31 @@ namespace Notenberechnung
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+
+            string ScreenPath = "Notenblatt_" + DateTime.Now.ToFileTime() + ".png";
+            
+
+            System.Threading.Thread.Sleep(500);
+            //Tastatureingabe
+            SendKeys.Send("{PRTSC}");
+            
+            Image Screenshot = Clipboard.GetImage();
+
+            if (Clipboard.ContainsImage())
+            {
+                Screenshot.Save(ScreenPath, ImageFormat.Png);
+
+            }
+
+
+
+        }
+
     }
+
 }
+
