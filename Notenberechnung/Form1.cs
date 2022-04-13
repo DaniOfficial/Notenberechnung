@@ -21,6 +21,8 @@ namespace Notenberechnung
         private void Form1_Load(object sender, EventArgs e)
         {
 
+           Clipboard.Clear();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -677,7 +679,7 @@ namespace Notenberechnung
             }
 
             double Fach5_Note_Berechnung = (((Convert.ToDouble(SA5_1.Text) * 2) + (Convert.ToDouble(SA5_2.Text) * 2) + (Convert.ToDouble(SA5_3.Text) * 2) + (Convert.ToDouble(SA5_4.Text) * 2) + Convert.ToDouble(KA5_1.Text) + Convert.ToDouble(KA5_2.Text) + Convert.ToDouble(KA5_3.Text) + Convert.ToDouble(KA5_4.Text)) / i);
-            //Ausgabe mit Convertierung INT zu String
+            //Ausgabe mit Convertierung Double zu String
             Fach5_Note.Text = Convert.ToString(Fach5_Note_Berechnung);
 
             if (Fach5_Note_Berechnung > 5.51)
@@ -1168,22 +1170,27 @@ namespace Notenberechnung
         private void button1_Click_1(object sender, EventArgs e)
         {
 
+            //Clipboard.Clear();
+            
+            System.Threading.Thread.Sleep(1000);
 
             string ScreenPath = "Notenblatt_" + DateTime.Now.ToFileTime() + ".png";
-            
 
-            System.Threading.Thread.Sleep(500);
+            
             //Tastatureingabe
-            SendKeys.Send("{PRTSC}");
+
+            //Erster Durchlauf
+            SendKeys.Send("%{PRTSC}");
             
             Image Screenshot = Clipboard.GetImage();
 
             if (Clipboard.ContainsImage())
             {
+
                 Screenshot.Save(ScreenPath, ImageFormat.Png);
 
-            }
 
+            }
 
 
         }

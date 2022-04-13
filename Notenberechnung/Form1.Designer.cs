@@ -7,6 +7,7 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+
         /// <summary>
         /// Verwendete Ressourcen bereinigen.
         /// </summary>
@@ -135,6 +136,7 @@
             this.Fach7_ZGNS = new System.Windows.Forms.Label();
             this.Fach8_ZGNS = new System.Windows.Forms.Label();
             this.safe_btn = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // berrechnen
@@ -999,11 +1001,21 @@
             this.safe_btn.UseVisualStyleBackColor = true;
             this.safe_btn.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(692, 591);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(108, 17);
+            this.label4.TabIndex = 169;
+            this.label4.Text = "bitte 2x drücken";
+            // 
             // Hauptfenster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1810, 920);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.safe_btn);
             this.Controls.Add(this.Fach8_ZGNS);
             this.Controls.Add(this.Fach7_ZGNS);
@@ -1226,6 +1238,7 @@
         private System.Windows.Forms.Label Fach7_ZGNS;
         private System.Windows.Forms.Label Fach8_ZGNS;
         private System.Windows.Forms.Button safe_btn;
+        private System.Windows.Forms.Label label4;
     }
 }
 
